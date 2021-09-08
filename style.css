@@ -1,9 +1,13 @@
+section {
+  padding: 0 200px;
+}
+
 .slider-bg {
   background-color: #fceae8;
   border-radius: 10px;
 }
-.conatiner {
-  margin-bottom: 150px;
+.container {
+  margin-bottom: 100px;
 }
 .carousel-item {
   padding: 20px 40px;
@@ -18,4 +22,28 @@
   border: none;
   border-radius: 8px;
   padding: 9px 25px;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.cat1 {
+  background-color: orange;
+}
+.cat2 {
+  background-color: orchid;
+}
+.cat3 {
+  background-color: rgba(39, 39, 223, 0.623);
+}
+.category h1 {
+  color: white;
+  font-size: 35px;
+}
+.category img {
+  width: 100px;
 }
