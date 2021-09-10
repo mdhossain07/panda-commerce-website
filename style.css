@@ -47,3 +47,32 @@ section {
 .category img {
   width: 100px;
 }
+
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 10px;
+}
+
+.card-footer {
+  border-top: none;
+  background-color: white;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
